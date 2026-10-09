@@ -2,7 +2,7 @@
     "eschema": 1,
     "android": {
         "versionMinima" : "0.24.0",
-        "ultimaVersion" : "0.24.0",
+        "ultimaVersion" : "0.25.0",
         "novedades" : []
     },
     "ios": {
