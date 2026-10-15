@@ -1,0 +1,17 @@
+{
+  "esquema": 1,
+  "canciones": [
+    {
+      "id": "intro-katarsis-2026",
+      "nombre": "INTRO KATARSIS 2026",
+      "url": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/audio/intro-katarsis-2026.mp3",
+      "duracionSegundos": 121
+    },
+    {
+      "id": "rimas-que-anikilan-2026",
+      "nombre": "RIMAS QUE ANIKILAN 2026",
+      "url": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/audio/rimas-que-anikilan-2026.mp3",
+      "duracionSegundos": 194
+    }
+  ]
+}
