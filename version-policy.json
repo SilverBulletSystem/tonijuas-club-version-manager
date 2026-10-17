@@ -1,8 +1,8 @@
 {
     "eschema": 1,
     "android": {
-        "versionMinima" : "1.0.0",
-        "ultimaVersion" : "1.0.0",
+        "versionMinima" : "0.36.0",
+        "ultimaVersion" : "0.36.0",
         "novedades" : []
     },
     "ios": {
