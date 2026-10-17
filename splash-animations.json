@@ -1,0 +1,12 @@
+ {
+    "esquema": 1,
+    "animaciones": [
+      {
+        "id": "splash-carrera",
+        "nombre": "SPLASH CARRERA",
+        "url": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/animaciones/splash-carrera.json",
+        "duracionSegundos": 6,
+        "version": 1
+      }
+    ]
+  }
