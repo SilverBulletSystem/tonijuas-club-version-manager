@@ -4,7 +4,7 @@
       {
         "id": "splash-carrera",
         "nombre": "Carrera de caballos",
-        "url": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/animaciones/splash_carrera.json",
+        "url": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/animaciones/splash-carrera.json",
         "atlasUrl": "https://raw.githubusercontent.com/SilverBulletSystem/tonijuas-club-version-manager/main/animaciones/splash_carrera_atlas.png",
         "duracionSegundos": 6,
         "version": 2
