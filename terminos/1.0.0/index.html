@@ -18,10 +18,12 @@ font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,
 .wrap{max-width:760px;margin:0 auto;padding:32px 16px 64px}
 header.top{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:8px}
 .brand{font-weight:700;letter-spacing:.02em;color:var(--accent);font-size:.9rem;text-transform:uppercase}
+.brand a{color:inherit;text-decoration:none}
 h1{font-size:1.9rem;line-height:1.25;margin:.3em 0 .4em}
 .meta{display:flex;flex-wrap:wrap;gap:8px;margin:0}
 .pill{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 12px;font-size:.85rem;font-weight:600}
 .pill.plain{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.quick{margin:18px 0 0;font-weight:600}
 nav.toc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:24px 0}
 nav.toc strong{display:block;margin-bottom:6px}
 nav.toc ol{margin:0;padding-left:1.3em;columns:2;column-gap:28px}
@@ -29,28 +31,36 @@ nav.toc li{break-inside:avoid;font-size:.92rem;margin:0 0 .3em}
 @media (max-width:560px){nav.toc ol{columns:1}h1{font-size:1.55rem}}
 h2{font-size:1.25rem;margin:2em 0 .5em;padding-top:.4em;scroll-margin-top:16px}
 p,li{overflow-wrap:anywhere}
-ul{padding-left:1.3em}
+ul,ol{padding-left:1.3em}
 li{margin:.25em 0}
 a{color:var(--accent)}
 .notice{background:var(--notice);border-left:4px solid var(--notice-line);padding:10px 14px;border-radius:6px}
+div.notice p:first-child{margin-top:0}
+div.notice ol{margin-bottom:0}
 .table-wrap{overflow-x:auto;margin:1em 0}
 table{border-collapse:collapse;width:100%;background:var(--surface);font-size:.95rem}
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 thead th{background:var(--accent-soft)}
 table.kv th{width:40%;font-weight:600;background:var(--accent-soft)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+footer a{margin-right:4px}
 .versions td:first-child{white-space:nowrap}
-@media print{nav.toc{display:none}body{background:#fff;color:#000}a{color:#000}}
+ul.docs{list-style:none;padding:0}
+ul.docs li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:12px 0}
+ul.docs a{font-weight:700;font-size:1.05rem}
+ul.docs span{display:block;color:var(--muted);font-size:.9rem}
+@media print{nav.toc,.quick{display:none}body{background:#fff;color:#000}a{color:#000}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="top">
-<div class="brand">Tonijuas Club</div>
+<div class="brand"><a href="../../">Tonijuas Club</a></div>
 <h1>Términos y Condiciones</h1>
 <p class="meta"><span class="pill">Versión 1.0.0</span>
 <span class="pill plain">Vigente desde el <time datetime="2026-10-23">23 de octubre de 2026</time></span>
 <span class="pill plain">Versión archivada · ver la <a href="../">vigente</a></span></p>
+
 </header><nav class="toc" aria-label="Contenido"><strong>Contenido</strong><ol><li><a href="#s1">Quiénes somos y aceptación</a></li><li><a href="#s2">El Servicio</a></li><li><a href="#s3">Edad mínima: 18 años</a></li><li><a href="#s4">Tu cuenta</a></li><li><a href="#s5">Licencia de uso</a></li><li><a href="#s6">Versión gratuita, versión completa y compras</a></li><li><a href="#s7">Fichas y objetos virtuales</a></li><li><a href="#s8">Derecho a retracto, reembolsos y garantía</a></li><li><a href="#s9">Publicidad</a></li><li><a href="#s10">Normas de conducta y juego limpio</a></li><li><a href="#s11">Propiedad intelectual</a></li><li><a href="#s12">Disponibilidad, actualizaciones y cambios al Servicio</a></li><li><a href="#s13">Suspensión y cierre de cuenta</a></li><li><a href="#s14">Datos personales</a></li><li><a href="#s15">Responsabilidad</a></li><li><a href="#s16">Cambios a estos Términos</a></li><li><a href="#s17">Ley aplicable y solución de conflictos</a></li><li><a href="#s18">Contacto</a></li></ol></nav><h2 id="s1">1. Quiénes somos y aceptación</h2>
 <p>Tonijuas Club (la "App") es una aplicación móvil de juegos de naipes operada por Tonijuas Club SpA, sociedad por acciones chilena, RUT 78.539.937-4 ("nosotros"). Nuestro correo de contacto es <a href="mailto:tonijuasclub@gmail.com">tonijuasclub@gmail.com</a>.</p>
 <p>Estos Términos y Condiciones (los "Términos") regulan el uso de la App y de todos sus juegos y servicios (el "Servicio"). Son un contrato entre tú y nosotros.</p>
@@ -247,7 +257,8 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:v
 </table>
 </div>
 
-<footer>Tonijuas Club SpA · RUT 78.539.937-4 · <a href="mailto:tonijuasclub@gmail.com">tonijuasclub@gmail.com</a></footer>
+<footer><a href="../../terminos/">Términos y Condiciones</a> · <a href="../../privacidad/">Política de Privacidad</a><br>
+Tonijuas Club SpA · RUT 78.539.937-4 · <a href="mailto:tonijuasclub@gmail.com">tonijuasclub@gmail.com</a></footer>
 </div>
 </body>
 </html>
