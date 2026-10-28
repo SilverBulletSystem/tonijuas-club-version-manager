@@ -1,0 +1,9 @@
+{ 
+    "esquema": 1, 
+    "android": { 
+        "compraHabilitada": false 
+    }, 
+    "ios": { 
+        "compraHabilitada": false 
+    } 
+}
