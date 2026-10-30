@@ -1,7 +1,7 @@
 { 
     "esquema": 1, 
     "android": { 
-        "compraHabilitada": false 
+        "compraHabilitada": true 
     }, 
     "ios": { 
         "compraHabilitada": false 
