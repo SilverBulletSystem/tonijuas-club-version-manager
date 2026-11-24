@@ -1,0 +1,11 @@
+{ 
+    "esquema": 1, 
+    "android": { 
+        "compraHabilitada": false,
+        "brisca4PlayersHabilitado": true 
+    }, 
+    "ios": { 
+        "compraHabilitada": false,
+        "brisca4PlayersHabilitado": true 
+    } 
+}
